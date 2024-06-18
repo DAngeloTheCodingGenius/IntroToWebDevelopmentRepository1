@@ -1,2 +1,2 @@
-# Code-1-Version-Control-1-
+# Intro to Web Development Repository 1 
 Repository for learning and understanding version control.
