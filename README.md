@@ -1,2 +1,2 @@
-# Intro to Web Development Repository 1 
-Repository for learning and understanding version control.
+# Intro to Web Development Repository 
+This is Repository for learning web development, it will mostly be used to turn in work. (As far as I know now.)
