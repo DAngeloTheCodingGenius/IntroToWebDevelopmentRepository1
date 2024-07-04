@@ -1,0 +1,11 @@
+div.introduction {
+    background-color: #548ca8;  margin-top: 5px; margin-bottom: 5px; height: 25px;
+}
+
+div.main-content{
+    background-color: #476072; margin-top: 5px; margin-bottom: 5px; height: 25px; 
+}
+
+div.contact-us{
+    background-color: #334257; margin-top: 5px; margin-bottom: 5px;height: 25px;
+}
