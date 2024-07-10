@@ -4,13 +4,19 @@
     text-align: center;
 
     border: black 5px solid;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
   }
 
-  .griditem2,
-  .griditem3,
+  .griditem6,
   .griditem4,
-  .griditem5,
-  .griditem6 {
+  .griditem3,
+  .griditem2,
+  .griditem5
+  {
     background: grey;
 
     text-align: center;
@@ -20,8 +26,9 @@
 
   .grid-container {
     display: grid;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 100px 100px 100px 100px;
     grid-template-columns: 100px 100px 100px 100px; 
     gap: 5px;
+
 
   }
