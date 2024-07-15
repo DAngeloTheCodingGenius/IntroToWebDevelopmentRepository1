@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+}
+
+header {
+  padding: 20px 50px;
+  box-shadow: 0 5px 8px #ddd;
+  background-color: #b4ea62;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+#nav-title {
+  font-size: 1.5em;
+}
+
+nav ul{
+    justify-content: end;
+    align-self: center;
+}
+
+
+
+header a {
+  text-decoration: none;
+  color: #555;
+}
+
+header a:hover {
+  color: #6a1de4;
+}
