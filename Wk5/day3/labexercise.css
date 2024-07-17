@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  
+  @media only screen and (max-width: 601px) {
+    main{
+        font-size: .7em;
+
+    }
+
+    header{
+        font-size: .7em;
+        padding-right: 15%;
+    }
+
+    .grid1{
+        font-size: .7em;
+    }
+
+    footer{
+        font-size: .7em;
+
+    }
+
+}
+
+  header {
+    padding: 20px 50px;
+    box-shadow: 0 5px 8px #ddd;
+    background-color:  #4c175a;
+    display: flex;
+    justify-content:left ;
+    align-items: center; 
+  }
+  
+  header h1{
+    padding-right: 45%;
+    padding-left: 5%;
+  
+  }
+  
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: bold;
+    border: .5px solid rgba(255, 255, 255, 0.425);
+    background-color: #4c175a73;
+  }
+  
+  nav ul{
+      justify-content: end;
+      align-self: center;
+  }
+  
+  header{
+      color: white
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white  
+  }
+  
+  header a:hover {
+    color: gold;
+  }
+  
+  main.homepgmain {
+      align-items: center;
+      background-color: lightpink;
+      text-align: center;
+      border-radius: 5px ;
+      padding: 10px;
+      margin: 5px;
+      text-wrap: wrap;
+  }
+  
+  .grid1{
+    display: grid;
+      grid-template-rows: 2;
+      grid-template-columns: 6;  
+      grid-template-areas: 
+      "box1 box1 box1 box2 box2 box2"
+      "box3 box3 box3 box4 box4 box4"
+      ;
+  }
+  
+  .grid1 div{
+      background-color:lightpink;
+      border-radius: 5px;
+      border: #4c175a;
+      margin: 15px;
+      padding: 15px;
+      align-items: center;
+      border-style: solid;
+      border-width: 4px;
+      text-align: center;
+      width: fit-content;
+      height: fit-content;
+      
+  }
+  
+  #box1{
+      grid-area: box1;
+  }
+  
+  #box2{
+      grid-area: box2;
+  }
+  
+  #box3{
+      grid-area: box3;
+  }
+  
+  #box4{
+      grid-area: box4;
+  }
+  
+  
+  
+  img.novalogoimg{
+  width: 45%; height: 45%;
+  
+  }
