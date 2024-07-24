@@ -1,0 +1,47 @@
+.button1
+{
+    width: 50px;
+    background-color: rgb(172, 227, 172);
+    color: black;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+div.formdiv{
+    padding: 15px;
+    display: flex;
+    background-color: blue;
+    border-radius: 15px; 
+    color: white;
+    justify-content: center;
+    width: 350px; 
+    height: 350px;
+}
+
+div.formcontainer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.formdiv input{
+    margin: 10px;
+}
+
+.formdiv  label#fnamelabel{
+    margin-top: 10px;
+}
+
+.formdiv input#fname{
+    margin-top: 10px;
+}
+
+.formdiv a{
+    justify-content: center;
+    color: white;
+}
